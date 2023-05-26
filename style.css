@@ -1,0 +1,369 @@
+/* réinitialiser les marges par defaut du navigatuer */
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+body {
+   font-family: manrope;
+   font-size: 1.1em;
+   background-color: #1f2039;
+
+}
+
+
+
+
+
+
+a {
+   color: #242424;
+   text-decoration: none;
+
+}
+
+p,
+h2 {
+   color: #F9F8FF;
+
+}
+
+h1 {
+   font-size: 3.5em;
+   color: #a8aced;
+   font-family: Montserrat;
+}
+
+
+
+li {
+   font-family: manrope;
+   font-size: 1em;
+   color: #F9F8FF;
+}
+
+/* couleur de fond */
+.header {
+   background-color: white;
+}
+
+.footer {
+   background-color: white;
+}
+
+
+
+
+
+
+
+/* mise en forme du corps à propos */
+.carre-contenu {
+   border-right: 1px solid #436c92;
+   border-bottom: 1px solid #8e86b5;
+   padding: 50px;
+}
+
+
+
+/* mise en forme des lien au survole */
+
+a:hover {
+   text-decoration: underline;
+}
+
+.cta:hover {
+   background: linear-gradient(#110e24, #3e69a2);
+   text-decoration: none;
+}
+
+.cta {
+   background: linear-gradient(90deg, #8E86B5, #ACAEED);
+   font-family: Montserrat;
+   color: #F9F8FF;
+   border-radius: 50px;
+   padding: 5px;
+   margin-left: 100px;
+   margin-top: 100px;
+   height: 45px;
+
+   display: inline-block;
+}
+.bouton-accueil{
+   margin-bottom: 150px;
+}
+
+.lien-icone:hover {
+   opacity: 0.5;
+}
+
+/* mise en forme du footer et header */
+header,
+footer {
+   padding: 20px 50px 20px 50px;
+}
+
+/* mise en forme des sections */
+section {
+   padding: 80px;
+}
+
+
+/* centrer le contentenu de à propos */
+.section-apropos {
+   width: 700px;
+   margin: auto;
+}
+
+
+#service {
+   margin-top: 15px;
+}
+
+.liste-service {
+   margin-top: 0px;
+}
+
+.container {
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+
+div a {
+   margin: 10px;
+}
+
+.lien-icone {
+   margin-right: 30px;
+}
+
+.lien-ig {
+   margin-right: 25px;
+}
+
+/* mise page du tablaux à la page apropos */
+td,
+th {
+   border: 2px #98a0f1 solid;
+   text-align: center;
+   vertical-align: middle;
+   padding: 30px 70px;
+   color: #F9F8FF;
+
+
+}
+
+.td-taille {
+
+   font-size: small;
+   height: 200px;
+}
+
+caption {
+   font-weight: bolder;
+   color: #F9F8FF;
+   padding: 30px;
+
+}
+
+table {
+
+   border-collapse: collapse;
+   margin: auto;
+   margin-bottom: 10px;
+   width: 1100px;
+
+}
+
+
+
+/* mise en forme de l'accueil blog */
+.corps {
+   display: flex;
+   margin-left: 200px;
+   margin-right: 200px;
+
+
+
+}
+
+.div-corps {
+   display: flex;
+
+   justify-content: space-between;
+   flex-direction: column;
+}
+
+.sous-corp {
+   height: 100%;
+}
+
+.pargraphe-accueil {
+   margin-top: 2rem;
+}
+
+/* mise en page du portefolio */
+
+.portfolio-section-photos {
+   background-color: white;
+}
+
+.portfolio-section-photos h2 {
+   color: #242424;
+   margin-bottom: 80px;
+}
+
+/* mise en forme de grid */
+
+
+.grid-paysage {
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 300px 300px 300px;
+   gap: 15px;
+
+}
+.grid-accueil{
+
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   grid-template-rows: 300px 300px 300px;
+   gap: 15px;
+   /* border: #3e69a2 2px solid; */
+   height: 700px;
+   
+
+
+}
+
+.grid-accueil img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin-left: 202px;
+   margin-top: 50px;
+}
+
+
+
+
+.grid-paysage img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+
+.grid-portrait {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 300px 300px;
+   gap: 15px;
+}
+
+
+
+.grid-portrait img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.section-image{
+   background-color: #F9F8FF;
+   /* border: red 2px solid; */
+   height: 800px;
+   
+   
+}
+.section-image h2{
+   color: black;
+   text-align: center;
+   
+  
+}
+
+.h2-voyage{
+   
+   margin-top: -70px;
+}
+
+
+/* mise en forme du formulaire */
+form {
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   margin: auto;
+   color: white;
+   
+ }
+  
+  .form-nom-email {
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+ }
+ 
+
+ .form-column {
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 20px;
+   
+ }
+ 
+ 
+ input,
+ textarea {
+   padding: 15px;
+   border-radius: 3px;
+   border: none;
+ }
+
+ 
+ label {
+   margin-bottom: 10px;
+ }
+ 
+ input[type='submit'] {
+   width: 200px;
+   margin: auto;
+   margin-top: 30px;
+ }
+
+ #name-user{
+   display: inline-block;
+   width: 500px;
+   height: 10px;
+   
+ }
+
+ #email-user{
+   display: inline-block;
+   width: 500px;
+   height: 10px;
+ }
+
+ #msg-user{
+   height: 200px;
+ }
+
+ .parlons-projet{
+   width: 300px;
+   padding-bottom: 40px;
+   margin: auto;
+ }
+
+ .parlons-projet h2{
+
+   color: #ACAEED;
+ }
